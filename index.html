@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" draggable="true">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Righteous&display=swap" rel="stylesheet">
+    <script src="app.js">
+        
+    </script>
+    <title>DalalPoints</title>
+</head>
+<body>
+    <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-4 border bg-light">
+            <h1>Annie</h1>
+            <hr>
+            <h2>
+                Total Points:
+            </h2>
+            <span id="annie"></span> <br>
+            <button type="button"  onclick="change_text()" class="btn btn-outline-info" id="Points">GIVE POINTS!</button>
+            <br>
+            <ul>
+                <h4>Checklist(for help):</h4>
+                <li onclick="attribute_change1()" id="li1">
+                   <h5>Woke up on Time!</h5>
+                </li>
+                <li onclick="attribute_change2()" id="li2">
+                    <h5>Exercised for 10 mins</h5>
+                </li>
+                <li onclick="attribute_change3()" id="li3">
+                    <h5>Studied</h5>
+                </li>
+                <li id="li4" onclick="attribute_change4()" >
+                    <h5>Helped with chores</h5>
+                </li>
+                <li id="li5" onclick="attribute_change5()">
+                   <h5>Good Behaviour</h5>
+                </li>
+            </ul>
+           </div>
+          </div>
+          <div class="col">
+            <div class="p-4 border bg-light">
+                <h1>Bunny</h1>
+                <hr>
+                <h2>
+                    Total Points:
+                </h2>
+                <span id="bunny"></span> <br>
+                <button onclick="change_ext()" type="button" class="btn btn-outline-info">GIVE POINTS!</button>
+                <br>
+                <ul>
+                <h4>Checklist(for help):</h4>
+                <li onclick="attribute_change6()" id="li6">
+                   <h5>Woke up on Time!</h5>
+                </li>
+                <li onclick="attribute_change7()" id="li7">
+                    <h5>Exercised for 10 mins</h5>
+                </li>
+                <li onclick="attribute_change8()" id="li8">
+                    <h5>Studied</h5>
+                </li>
+                <li onclick="attribute_change9()" id="li9">
+                    <h5>Helped with chores</h5>
+                </li>
+                <li onclick="attribute_change0()" id="li10">
+                   <h5>Good Behaviour</h5>
+                </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
